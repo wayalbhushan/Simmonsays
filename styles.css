@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0 0.2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.line1, .line2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn {
+    flex: 1 1 40%;
+    max-width: 40%;
+    aspect-ratio: 1 / 1; /* Keeps it square */
+    border: 8px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+    box-sizing: border-box;
+    transition: transform 0.1s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.pink {
+    background-color: pink;
+}
+
+.orange {
+    background-color: rgb(219, 179, 106);
+}
+
+.purple {
+    background-color: rgb(211, 91, 211);
+}
+
+.green {
+    background-color: rgb(99, 217, 99);
+}
+
+.flash {
+    background-color: white !important;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        max-width: 40vw;
+        margin: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        max-width: 80vw;
+        margin: 0.5rem;
+    }
+
+    .btn-container {
+        flex-direction: column;
+    }
+
+    .line1, .line2 {
+        flex-direction: column;
+    }
+}
