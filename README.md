@@ -4,11 +4,6 @@ A classic memory game built using **HTML**, **CSS**, and **JavaScript**. This is
 
 ---
 
-## 🎮 Demo
-
-[Click here to play](#) *(Add GitHub Pages link or live demo URL if hosted)*
-
----
 
 ## 📷 Screenshot
 
