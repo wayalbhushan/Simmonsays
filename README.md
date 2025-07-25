@@ -7,7 +7,7 @@ A classic memory game built using **HTML**, **CSS**, and **JavaScript**. This is
 
 ## 📷 Screenshot
 
-![Simon Says Game Screenshot](./screenshot.png) *(Optional: Add a screenshot image)*
+![Simon Says Game Screenshot](./screenshot.png)
 
 ---
 
