@@ -40,5 +40,5 @@ A classic memory game built using **HTML**, **CSS**, and **JavaScript**. This is
 
 ---
 
-## 🧩 Folder Structure
+
 
